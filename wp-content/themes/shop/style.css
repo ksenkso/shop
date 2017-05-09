@@ -1,0 +1,41 @@
+/*!
+Theme Name:   	Shop
+Author:         Ksenkso
+Version:      	1.0.0
+Template:       storefront
+Text Domain:  	shop
+Tags:         	e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options
+*/
+
+.cat-list, .subcat-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.subcat-list {
+    display: none;
+    padding-left: 1em;
+}
+
+.cat-item {
+    position: relative;
+}
+
+.cat-toggle {
+    margin-left: 1em;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: transform .2s ease-in-out;
+    position: absolute;
+    right: 0;
+    top: -8px;
+}
+
+.cat-toggle.active {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
